@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Single</title>
+        <script
+            src="https://kit.fontawesome.com/b3c05e3ace.js"
+            crossorigin="anonymous"
+        ></script>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="site-wrapper">
+            <header class="site-header header-main">
+                <!-- mobile-header -->
+                <div class="header-mobile hidden-md">
+                    <div class="header-mobile__inner">
+                        <div class="header-mobile__section site-logo">
+                            <a href="#">
+                                <img src="./img/logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="header-mobile__section offcanvs-search">
+                            <button class="btn-search js-search-toggle">
+                                <i class="fas fa-search"></i>
+                            </button>
+                            <button class="btn-offcanvas js-btn-offcanvas">
+                                <i class="fas fa-bars"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="search-box-inner">
+                        <form action="" class="search">
+                            <input type="text" name="" id="" placeholder="Search...">
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+                <!-- header-main -->
+                <nav class="navigation-main hidden-sm">
+                    <div class="navigation__inner">
+                        <div class="navigation__section site-logo">
+                            <a href="#">
+                                <img src="./img/logo.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="navigation__section main-menu">
+                            <ul class="menu-item">
+                                <li class="menu-children">
+                                    <a href="#" class="active"> Home </a>
+                                </li>
+                                <li class="menu-children">
+                                    <a href="#"> News </a>
+                                </li>
+                                <li class="menu-children children-has-submenu">
+                                    <a href="#"> Featured </a>
+                                    <ul class="submenu">
+                                        <li>
+                                            <a href="#"> Life </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Fashion </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Beauty </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Travel </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-children">
+                                    <a href="#"> About </a>
+                                </li>
+                                <li class="menu-children">
+                                    <a href="single.html" target="_blank"> Single </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="navigation__section navigation-search-user">
+                            <div class="search-box">
+                                <input type="text" name="text" id="" placeholder="Search..."/>
+                                <button><i class="fas fa-search"></i></button>
+                            </div>
+                            <div class="user">
+                                <div class="user-avatar">
+                                    <img src="./img/user.png" alt="" />
+                                </div>
+                                <div class="user-detail">
+                                    <h3 class="user-name f-18 f-w-500">
+                                        Jack Jack
+                                    </h3>
+                                    <div class="user-account">
+                                        <a href="#">
+                                            Account
+                                        </a>
+                                    </div>
+                                    <div class="user-logout">
+                                        Logout
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+
+            <div class="site-content">
+                <div class="module module-fullwidth">
+                    <div class="container">
+                        <div class="entry__thumb">
+                            <img src="./img/11.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="module module-fullwidth">
+                    <div class="container container--narrow">
+                        <header class="single-header">
+                            <a class="entry__cat post__cat post__cat-bg">
+                                Travel
+                            </a>
+                            <h1 class="entry__title f-46 f-w-700">
+                                Travel to make memories all around the world
+                            </h1>
+                            <div class="entry-teaser f-16 f-w-400">
+                                Pellentesque vel sem cursus, interdum tortor vitae, placerat libero. Curabitur posuere ex lobortis purus feugiat, a dapibus ex venenatis. Vivamus lorem tellus, tristique a turpis ac, venenatis hendrerit sem. Vestibulum sodales ipsum eget nisi porttitor, et efficitur dolor tincidunt. Maecenas iaculis felis eu elit mollis, viverra lobortis urna finibus.
+                            </div>
+                            <div class="entry__meta">
+                                <div class="entry__author">
+                                    <div class="entry-avatar">
+                                        <img src="./img/auhot-2.png" alt="">
+                                    </div>
+                                    <div class="entry-text">
+                                        <div class="entry-name">
+                                            Jack Jack
+                                        </div>
+                                        <time class="time published f-15 f-w-500" datetime="2016-08-20T08:53+00:00" title="August 20, 2016 at 08:53 am">02 Dec 2021</time>
+                                    </div>
+                                </div>
+                            </div>
+                        </header>
+
+                        <div class="single-content">
+                            <div class="single-content-left single-share">
+                                <span>Share</span>
+                                <ul class="share-list">
+                                    <li>
+                                        <a href="">
+                                            <i class="fab fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="single-content-right">
+                                <div class="single-content-body">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut efficitur ligula. Sed sagittis dignissim interdum. Suspendisse tincidunt sapien et turpis cursus rhoncus. Vivamus egestas enim magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu sem non diam vulputate scelerisque eu eu nulla. Suspendisse id nisi aliquet felis rutrum euismod eget lacinia magna. Nulla eget quam id ipsum blandit vestibulum sed nec enim. Nulla id blandit est.
+                                    </p>
+                                    <p>
+                                        Pellentesque vel sem cursus, interdum tortor vitae, placerat libero. Curabitur posuere ex lobortis purus feugiat, a dapibus ex venenatis. Vivamus lorem tellus, tristique a turpis ac, venenatis hendrerit sem. Vestibulum sodales ipsum eget nisi porttitor, et efficitur dolor tincidunt. Maecenas iaculis felis eu elit mollis, viverra lobortis urna finibus. Aenean urna urna, ullamcorper sed ligula vitae, placerat semper ex. Quisque nec arcu justo. Proin eget pulvinar orci, sed accumsan nisi. Nulla nibh elit, varius a velit et, rutrum facilisis ante. Cras pretium, orci ac vulputate iaculis, ex odio consequat leo, ornare tristique nisl tortor at purus. Aliquam erat volutpat. Sed ut consectetur nisi, quis congue diam. Nulla leo arcu, pellentesque sit amet dignissim eu, condimentum in nisi. In erat sapien, tempor a eros id, tempus viverra lorem. Quisque non commodo dolor, eu commodo sapien.
+                                    </p>
+                                    <figure>
+                                        <img src="./img/12.jpg" alt="">
+                                    </figure>
+                                    <p>
+                                        Aliquam eget ornare lacus. Fusce quis turpis nec massa consectetur gravida aliquam ac quam. Nulla iaculis euismod nulla ac tempor. Nulla at iaculis massa. Pellentesque ligula purus, molestie a dui sit amet, interdum fringilla urna. Nam quis lacinia massa. Integer auctor quam at condimentum elementum. Praesent cursus, felis ut luctus faucibus, massa risus lacinia libero, ac tincidunt arcu nisi ut elit.
+                                    </p>
+                                    <p>
+                                        Vivamus luctus orci eget ligula ultrices, id interdum dolor facilisis. Praesent non orci ut nunc dapibus efficitur. Curabitur lorem tortor, pharetra ut nulla eu, dictum cursus sem. Vestibulum quis rhoncus diam. Sed molestie consequat dui in fermentum. Sed auctor sapien sollicitudin faucibus lacinia. Nullam sed elit eu felis dignissim auctor. Nulla viverra laoreet rutrum.
+                                    </p>
+                                </div>
+
+                                <!-- footer -->
+                                <footer class="entry-footer">
+                                    <div class="entry-footer-left">
+                                        <span>Tag:</span>
+                                        <ul class="tag-list">
+                                            <li>
+                                                <a href="">Beauty</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Travel</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Lifestyle</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="entry-footer-right">
+                                        <a><i class="fas fa-eye"></i>views</a>
+                                        <a><i class="fas fa-comments"></i>Comment</a>
+                                    </div>
+                                </footer>
+
+                                <!-- author-box -->
+                                <div class="author-box">
+                                    <div class="author-box-avatar">
+                                        <img src="./img/auhot-2.png" alt="">
+                                    </div>
+                                    <div class="author-box-text">
+                                        <div class="author-box-name">
+                                            Jack Jack
+                                        </div>
+                                        <div class="author-box-bio">
+                                            Aliquam eget ornare lacus. Fusce quis turpis nec massa consectetur gravida aliquam ac quam. Nulla iaculis euismod nulla ac tempor. Nulla at iaculis massa. Pellentesque ligula purus, molestie a dui sit amet, interdum fringilla urna. 
+                                        </div>
+                                        <div class="author-box-info">
+                                            <ul class="share-list">
+                                                <li>
+                                                    <a href="">
+                                                        <i class="fab fa-facebook"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="">
+                                                        <i class="fab fa-twitter"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="">
+                                                        <i class="fab fa-linkedin-in"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- posts-navigation -->
+                                <div class="posts-navigation">
+                                    <div class="post-navigation-prev">
+                                        <article class="post post--horizontal post--horizontal-navigation post--horizontal-reverse">
+                                            <div class="post__thumb object-fit">
+                                                <a href="">
+                                                    <img src="./img/nature-23.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="post__text">
+                                                <a href="" class="label-nav prev">previous</a>
+                                                <h3 class="post__title f-18 f-w-600">
+                                                    <a href="">
+                                                        Travel to make memories all around the world
+                                                    </a>
+                                                </h3>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="post-navigation-next">
+                                        <article class="post post--horizontal post--horizontal-navigation">
+                                            <div class="post__thumb object-fit">
+                                                <a href="">
+                                                    <img src="./img/nature-24.jpg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="post__text">
+                                                <a href="" class="label-nav next">next</a>
+                                                <h3 class="post__title f-18 f-w-600">
+                                                    <a href="">
+                                                        Travel to make memories all around the world
+                                                    </a>
+                                                </h3>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+
+                                <div class="comment-sction">
+                                    <div class="comment-heading">
+                                        <h2 class="f-36 f-w-700">
+                                            Comment
+                                        </h2>
+                                    </div>
+                                    <div class="comment-area">
+                                        <ol class="commnent-parent">
+                                            <li class="depth-1">
+                                                <div class="comment-uer">
+                                                    <div class="user-avarta object-fit">
+                                                        <img src="./img/author.jpg" alt="">
+                                                    </div>
+                                                    <div class="user-content">
+                                                        <p class="user-name f-18 f-w-500">Jack Jack</p>
+                                                        <div class="content f-14 f-w-400">
+                                                            There's good news, and there's bad news. The bad news is, it's not the drug. You're here, in the astral plane.  place. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        </div>
+                                                        <div class="comment-metadata f-14 f-w-400">
+                                                            <time datetime="2016-10-21T13:31:45+00:00">July 24, 2021 at 1:31 pm</time>
+                                                            <a href="#" class="edit-comment"><i class="far fa-edit"></i>Edit</a>
+                                                        </div>
+                                                        <div class="reply f-14 f-w-400" >
+                                                            <a href="#"><i class="fas fa-reply"></i> Reply</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <ol class="comment-children">
+                                                    <li class="depth-2">
+                                                        <div class="comment-uer">
+                                                            <div class="user-avarta object-fit">
+                                                                <img src="./img/author.jpg" alt="">
+                                                            </div>
+                                                            <div class="user-content">
+                                                                <p class="user-name f-18 f-w-500">Jack Jack</p>
+                                                                <div class="content f-14 f-w-400">
+                                                                    There's good news, and there's bad news.  
+                                                                </div>
+                                                                <div class="comment-metadata f-14 f-w-400">
+                                                                    <time datetime="2016-10-21T13:31:45+00:00">July 24, 2021 at 1:31 pm</time>
+                                                                    <a href="#" class="edit-comment"><i class="far fa-edit"></i>Edit</a>
+                                                                </div>
+                                                                <div class="reply f-14 f-w-400" >
+                                                                    <a href="#"><i class="fas fa-reply"></i> Reply</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ol>
+                                            </li>
+                                            <li class="depth-1">
+                                                <div class="comment-uer">
+                                                    <div class="user-avarta object-fit">
+                                                        <img src="./img/author.jpg" alt="">
+                                                    </div>
+                                                    <div class="user-content">
+                                                        <p class="user-name f-18 f-w-500">Jack Jack</p>
+                                                        <div class="content f-14 f-w-400">
+                                                            There's good news, and there's bad news.  place. 
+                                                        </div>
+                                                        <div class="comment-metadata f-14 f-w-400">
+                                                            <time datetime="2016-10-21T13:31:45+00:00">July 24, 2021 at 1:31 pm</time>
+                                                            <a href="#" class="edit-comment"><i class="far fa-edit"></i>Edit</a>
+                                                        </div>
+                                                        <div class="reply f-14 f-w-400" >
+                                                            <a href="#"><i class="fas fa-reply"></i> Reply</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="depth-1">
+                                                <div class="comment-uer">
+                                                    <div class="user-avarta object-fit">
+                                                        <img src="./img/author.jpg" alt="">
+                                                    </div>
+                                                    <div class="user-content">
+                                                        <p class="user-name f-18 f-w-500">Jack Jack</p>
+                                                        <div class="content f-14 f-w-400">
+                                                            There's good news, and there's bad news. place. 
+                                                        </div>
+                                                        <div class="comment-metadata f-14 f-w-400">
+                                                            <time datetime="2016-10-21T13:31:45+00:00">July 24, 2021 at 1:31 pm</time>
+                                                            <a href="#" class="edit-comment"><i class="far fa-edit"></i>Edit</a>
+                                                        </div>
+                                                        <div class="reply f-14 f-w-400" >
+                                                            <a href="#"><i class="fas fa-reply"></i> Reply</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ol>
+                                    </div>
+                                    <div class="comment-respond">
+                                        <h2 class="heading-respond f-30 f-w-700">
+                                            respond
+                                        </h2>
+                                        <form action="" class="form-respond">
+                                            <div class="input-group">
+                                                <div class="form-email">
+                                                    <input type="email" name="email" id="" placeholder="email" required>
+                                                </div>
+                                                <div class="form-name">
+                                                    <input type="text" name="name" id="" placeholder="name" required>
+                                                </div>
+                                            </div>
+                                            <div class="message-text">
+                                                <textarea name="message" id="" cols="30" rows="15" placeholder="message" required></textarea>
+                                            </div>
+                                            <div class="form-submit">
+                                                <input type="submit" value="Post Comment">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="site-footer footer-main">
+                <div class="container">
+                    <div class="footer__inner">
+                        <div class="footer__section footer-logo">
+                            <a href="">
+                                <img src="./img/footer-white.png" alt="">
+                            </a>
+                        </div>
+                        <div class="footer__section copy-right">
+                            <p>Hydra © Copyright BkNinja. All Rights Reserved.</p>
+                        </div>
+                        <div class="footer__section footer-social">
+                            <ul>
+                                <li>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <div class="offcanvas js-offcanvas">
+            <div class="offcanvas-inner">
+                <div class="offcanvas__section offcanvas__head">
+                    <h2 class="site-logo">
+                        <a href="#">
+                            <img src="./img/logo.png" alt="">
+                        </a>
+                    </h2>
+                    <p class="close js-close">
+                        <i class="fas fa-times-circle"></i>
+                    </p>
+                </div>
+                <div class="offcanvas__section offcanvas__section-nav">
+                    <div class="offcanvas-nav">
+                        <ul class="menu-item">
+                            <li class="menu-children active">
+                                <a href="#"> Home </a>
+                            </li>
+                            <li class="menu-children">
+                                <a href="#"> News </a>
+                            </li>
+                            <li class="menu-children children-has-submenu js-toggle-submenu" id="test">
+                                <a href="#"> Featured </a>
+                                <ul class="submenu">
+                                    <li>
+                                        <a href="#"> Life </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> Fashion </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> Beauty </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> Travel </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-children">
+                                <a href="#"> About </a>
+                            </li>
+                            <li class="menu-children">
+                                <a href="single.html" target="_blank"> Single </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="offcanvas__section social-list">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p class="markup js-remove-offcanvas">
+        </p>
+
+        <!-- import js -->
+
+        <script src="./js/jquery.min.js"></script>
+        <script src="./js/owl.carousel.min.js"></script>
+        <script src="./js/slider.js"></script>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
