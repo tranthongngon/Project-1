@@ -148,3 +148,32 @@
     color: var(--color-white);
     border: 1px solid var(--color-primary);
 }
+@media (max-width:767px) {
+    .user-avarta {
+        width: 60px;
+        height: 60px;
+    }
+    .depth-2 .user-avarta {
+        width: 50px;
+        height: 50px;
+    }
+    .depth-2 {
+        margin-left: 75px;
+    }
+    .input-group>* {
+        width: 100%;
+    }
+    .form-respond .form-email {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+    .form-respond .form-name {
+        padding-left: 0;
+    }
+    .form-respond {
+        margin: -10px;
+    }
+    .form-respond>* {
+        padding: 10px;
+    }
+}

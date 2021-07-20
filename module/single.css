@@ -37,6 +37,10 @@
 .entry-teaser {
     color: rgba(0, 0, 0, 0.6);
     max-width: 80%;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
 }
 .entry-avatar img {
     width: 100%;
@@ -292,4 +296,138 @@ figure img {
 }
 .post--horizontal-navigation.post--horizontal-reverse .post__text{
     text-align: right;
+}
+.post--horizontal-navigation .post__title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+@media (max-width:1199px) {
+    .entry__thumb {
+        width: calc(100% + (100vw - 940px)/2);
+        height: 600px;
+    }
+    .entry__title {
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+}
+@media (max-width:991px) {
+    .entry__thumb {
+        width: calc(100% + (100vw - 720px)/2);
+        height: 500px;
+    }
+    .single-header {
+        padding: 20px;
+    }
+    .entry-teaser {
+        max-width: 100%;
+    }
+    .post--horizontal-navigation .post__thumb {
+        width: 85px;
+        height: 85px;
+    }
+}
+@media (max-width:767px) {
+    .entry__thumb {
+        width: calc(100% + (100vw - 510px)/2);
+        height: 400px;
+    }
+    .single-header {
+        margin-top: 0;
+    }
+    .single-content {
+        flex-direction: column;
+    }
+    .single-content-left {
+        width: 100%;
+        margin-bottom: 20px;
+        flex-direction: row;
+        align-items: center;
+    }
+    .single-share ul li {
+        display: inline-block;
+    }
+    .single-share span {
+        margin-bottom: 0;
+        margin-right: 10px;
+    }
+}
+@media (max-width:575px) {
+    .entry__meta,
+    .entry-teaser {
+        display: none;
+    }
+    .entry__thumb {
+        width: 100%;
+        height: 350px;
+    }
+    .author-box .author-box-bio {
+        max-width: 100%;
+    }
+    .author-box {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .author-box .author-box-text {
+        text-align: center;
+    }
+    .author-box .author-box-avatar {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .posts-navigation {
+        flex-direction: column;
+    }
+    .post-navigation-prev {
+        width: 100%;
+    }
+    .post--horizontal-navigation {
+        flex-direction: row;
+    }
+    .post-navigation-prev {
+        border-right: 0;
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+    .post--horizontal-navigation .post__thumb {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+    .post--horizontal-navigation.post--horizontal-reverse .post__text {
+        text-align: left;
+    }
+    .post-navigation-next .post--horizontal-navigation {
+        flex-direction: row-reverse;
+    }
+    .post-navigation-next .post--horizontal-navigation .post__thumb {
+        margin-right: 0;
+        margin-left: 10px;
+    }
+    .post-navigation-next {
+        padding-left: 0;
+    }
+    .post-navigation-next .post--horizontal-navigation .post__text {
+        text-align: right;
+    }
+    figure {
+        height: 400;
+    }
+}
+@media (max-width:480px) {
+    .single-1 .module:not(:last-child){
+        margin-bottom: 35px;
+    }
+    .entry__thumb {
+        height: 300px;
+    }
+    .entry-footer {
+        display: none;
+    }
+}
+@media (max-width:380px) {
+    .entry__thumb {
+        height: 280px;
+    }
 }
